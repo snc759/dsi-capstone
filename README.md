@@ -10,6 +10,8 @@ This project was released on May 14th, 2021.  Data used was data gathered up unt
 | 2 | Code | The Code folder contains all python notebooks for cleaning the data and modeling the data |
 | 3 | Presentation | The presentation folder contains all images that were used in the presentation as well as a pdf copy of the powerpoint presentation. |  
 
+Note: Data Source can be found in the Data section below. 
+
 ### README Sections
 
 - Problem Statement

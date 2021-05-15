@@ -10,6 +10,8 @@ This project was released on May 14th, 2021.  Data used was data gathered up unt
 | 2 | Code | The Code folder contains all python notebooks for cleaning the data and modeling the data |
 | 3 | Presentation | The presentation folder contains all images that were used in the presentation as well as a pdf copy of the powerpoint presentation. |  
 
+Note: Data Source can be found in the Data section below. 
+
 ### README Sections
 
 - Problem Statement
@@ -24,7 +26,7 @@ This project was released on May 14th, 2021.  Data used was data gathered up unt
 
 #### Problem Statement
 
-The goal of this project was to train a model to use restaurant reviews on Yelp to accurately predict whether a restaurant has a "Casual" and/or "Classy" ambience, and then to use that language model to evaluate user inputted text to predict the type of experience the user wanted - a "Casual" and/or "Classy" experience.  This prediction would then be inserted into a recommender system in order to recommend the appropriate restaurants to the user. 
+The goal of this project was to train a model to use restaurant reviews on Yelp to accurately predict whether a restaurant has a `Casual` and/or `Classy` ambience, and then to use that language model to evaluate user inputted text to predict the type of experience the user wanted - a `Casual` and/or `Classy` experience.  This prediction would then be inserted into a recommender system in order to recommend the appropriate restaurants to the user. 
 
 ---
 #### Executive Summary 
@@ -37,7 +39,7 @@ It was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stop
 
 - Project Goal 
 
-The goal of this project was to train a model to use restaurant reviews on Yelp to accurately predict whether a restaurant has a "Casual" and/or "Classy" ambience, and then to use that language model to evaluate user inputted text to predict the type of experience the user wanted - a "Casual" and/or "Classy" experience.  This prediction would then be inserted into a recommender system in order to recommend the appropriate restaurants to the user. 
+The goal of this project was to train a model to use restaurant reviews on Yelp to accurately predict whether a restaurant has a `Casual` and/or `Classy` ambience, and then to use that language model to evaluate user inputted text to predict the type of experience the user wanted - a `Casual` and/or `Classy` experience.  This prediction would then be inserted into a recommender system in order to recommend the appropriate restaurants to the user. 
 
 - Metrics 
 
@@ -98,6 +100,7 @@ Finally a recommendation system was deployed by creating vectors from the ambien
 ---
 
 #### Conclusions and Areas for Improvement
+
 This project was a way to prototype the idea of using a language model on a user-input text section in order to improve restaurant recommendations.  That being said, there are a lot of ways to expand this prototype and improve its functionality. 
 
 - Future Model Improvements
