@@ -124,12 +124,15 @@ Finally, the recommendation part of this could be expanded to include more featu
 #### File Structure
 
 * Code: 
+
     * 01_convert_b_json_csv - the business json file that contains business id matched to the business name is converted into a csv file, and subsets the dataframe to include businesses that are open and businesses that are categorized under `Food`, `Restaurant`, and `Bar`.
     * 02_convert_review_json_csv - the review json file that contains restaurant reviews matched with the business id is converted into a csv file
     * 03_recommender - this file cleans the data to create a data frame ready to be transformed into a cosine distance recommender system
     * 04_cleaning_reshaping_reviews - this file merges the business csv and the review csv and cleans and preps the dataframe to be ready for NLP processing
     * 05_nlp_eda_cleaning_reviews - this file takes the merged dataframe and performs NLP processing on it such as tokenizing and stemming, and then creates some data visualization charts showing the most common words in each target class. 
+    
     * modeling: 
+    
         * 01_modeling - this file performs the basic supervise modeling using classifiers such as decision trees, random forests, SVMs, AdaBoost, and Bagging
         * 02\*-03\*_modeling_tf_lstm - these files performs the LSTM modeling with each notebook being an LSTM model with a slightly different topography or neural network structure. 
         * best_model\* - this file is the best LSTM model that was found
@@ -137,8 +140,11 @@ Finally, the recommendation part of this could be expanded to include more featu
         * yelp_app.py - this file is the streamlit application deployment
         * yelp_processing.py - this file is the yelp_app_demo file turned into a .py file and optimized for use in the yelp_app.py streamlit application file.
         * saved_model - this folder is the best LSTM Tensorflow saved to be imported in the yelp_app.py streamlit application file
+        
 * Miscellaneous-scratch - this folder contains scratch python notebooks that created during brainstorming
+
 * Presentation: 
+
     * imgs - this folder contains all the images that were included in the powerpoint presentation 
     * Yelp Capstone Presentation.pdf - this file is the final powerpoint presentation as a pdf file
 
