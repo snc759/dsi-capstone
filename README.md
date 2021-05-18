@@ -6,7 +6,7 @@ This project was released on May 14th, 2021.  Data used was data gathered up unt
 
 | Folder Number | Folder Name | Folder Description and Contents |
 | --- | --- | --- |
-| 1 | README | The README file contains the executive summary and overview of teh project as a whole. |
+| 1 | README | The README file contains the executive summary and overview of the project as a whole. |
 | 2 | Code | The Code folder contains all python notebooks for cleaning the data and modeling the data |
 | 3 | Presentation | The presentation folder contains all images that were used in the presentation as well as a pdf copy of the powerpoint presentation. |  
 
